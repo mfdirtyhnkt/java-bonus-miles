@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int TicketPrice = 14356;
-        int RublesFor1Mile= 20;
+        int ticketPrice = 14356;
+        int rublesFor1Mile= 20;
 
 
-        int BonusMiles = TicketPrice / RublesFor1Mile;
+        int bonusMiles =ticketPrice / rublesFor1Mile;
 
-        System.out.println("Количество начисленных миль: " + BonusMiles);
+        System.out.println("Количество начисленных миль: " + bonusMiles);
     }
 }
